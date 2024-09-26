@@ -1,0 +1,67 @@
+import React, { useState, useEffect } from 'react';
+import './App.css';
+
+function App() {
+  const [user, setUser] = useState({ name: '', gradeLevel: '', subjectInterest: '' });
+  const [recommendation, setRecommendation] = useState('');
+  const [courses, setCourses] = useState([]);
+
+  useEffect(() => {
+    // Fetch sample courses from the backend (mock data here for simplicity)
+    setCourses([
+      { id: 1, name: "Math Basics", subject: "Math", level: "beginner" },
+      { id: 2, name: "History of Rome", subject: "History", level: "intermediate" },
+      { id: 3, name: "Advanced Chemistry", subject: "Science", level: "advanced" }
+    ]);
+  }, []);
+
+  const handleInputChange = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
+  };
+
+  const getRecommendation = () => {
+    // Mock AI recommendation logic
+    const filteredCourses = courses.filter(course => 
+      course.subject.toLowerCase() === user.subjectInterest.toLowerCase()
+    );
+
+    if (filteredCourses.length > 0) {
+      setRecommendation(`Based on your interest in ${user.subjectInterest}, we recommend: ${filteredCourses[0].name}`);
+    } else {
+      setRecommendation("No courses available for your selected interest.");
+    }
+  };
+
+  return (
+    <div className="App">
+      <h1>Welcome to LearnSphere</h1>
+      <form>
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Enter your name" 
+          onChange={handleInputChange} 
+          value={user.name}
+        /><br/>
+        <input 
+          type="text" 
+          name="gradeLevel" 
+          placeholder="Enter your grade level" 
+          onChange={handleInputChange} 
+          value={user.gradeLevel}
+        /><br/>
+        <input 
+          type="text" 
+          name="subjectInterest" 
+          placeholder="Enter your subject of interest (e.g., Math, Science)" 
+          onChange={handleInputChange} 
+          value={user.subjectInterest}
+        /><br/>
+        <button type="button" onClick={getRecommendation}>Get Recommendation</button>
+      </form>
+      <p>{recommendation}</p>
+    </div>
+  );
+}
+
+export default App;
