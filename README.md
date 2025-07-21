@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @rajzkingdom
-- 👀 I’m interested in Travelling
+- 👋 Hi, I’m Rajshekar Reddy 
+- 👀 I’m interested in Learning New Tech.
 - 🌱 I’m currently learning BTECH
-- 💞️ I’m looking to collaborate on learning something new...
-- 📫 How to reach me rajz_kingdom on insta
+- 💞️ I’m looking to collaborate on  something innovative project
+- 📫 How to reach me rajumr1015@gmail.com 
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
