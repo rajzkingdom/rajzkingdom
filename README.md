@@ -1,12 +1,36 @@
-- 👋 Hi, I’m Rajshekar Reddy 
-- 👀 I’m interested in Learning New Tech.
-- 🌱 I’m currently learning BTECH
-- 💞️ I’m looking to collaborate on  something innovative project
-- 📫 How to reach me rajumr1015@gmail.com 
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Rajshekar Reddy (rajzkingdom)
 
-<!---
-rajzkingdom/rajzkingdom is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Hi — I’m Rajshekar Reddy 👋  
+A curious B.Tech student who loves learning new technologies and building things that solve real problems.
+
+## 🔭 About me
+- Currently studying for my B.Tech and exploring software development, web technologies, and cloud-native tools.
+- I enjoy turning ideas into small projects so I can learn by doing.
+
+## 💡 Interests & skills
+- Languages: JavaScript, Python, (learning more…)  
+- Web: HTML, CSS, React (learning)  
+- Learning: Algorithms, system design, and modern cloud tools
+
+## 🚀 Projects
+I like to build small, focused projects that teach me something new. Examples I work on:
+- Personal portfolio / website
+- Small web apps (to practice React + APIs)
+- Automation scripts to speed up repetitive tasks
+
+(Links to specific repos will go here — I can add them for you if you want me to list your best projects.)
+
+## 🤝 I’m open to
+- Collaborating on learning-focused or beginner-friendly projects
+- Open-source contributions where I can learn and add value
+- Mentorship opportunities and pair-programming sessions
+
+## 📫 Contact
+- Email: rajumr1015@gmail.com  
+- GitHub: https://github.com/rajzkingdom
+
+## 📝 Notes
+- Pronouns: ... (add your pronouns here if you'd like)  
+- ⚡ Fun fact: ... (add a short fun fact about yourself)
+
+---
